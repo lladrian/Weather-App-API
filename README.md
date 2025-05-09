@@ -19,7 +19,7 @@ A simple weather API that fetches and returns weather data from a 3rd party API.
 
 2. Clone or download this project.
 
-3. To make sure it will run you need to install using **`npm i`** in terminal.
+3. First you need to install using **`npm i`** in terminal.
 
 4. To run use this command : `node api_weather_app.js`
     - Usage:  `http://localhost:4000/weather/<location>`
