@@ -21,7 +21,7 @@ A simple weather API that fetches and returns weather data from a 3rd party API.
 
 3. To run use this command : `node api_weather_app.js`
   - Usage:  `http://localhost:4000/weather/<location>`
-  - Search via Web:
-     - **`http://localhost:4000/weather/San Jose, Ormoc City`**  fetches and returns weather data from a 3rd party API.
+    - Search via Web:
+        - **`http://localhost:4000/weather/San Jose, Ormoc City`**  fetches and returns weather data from a 3rd party API.
 
 4. https://roadmap.sh/projects/weather-api-wrapper-service
