@@ -68,8 +68,8 @@ app.get('/weather/:location', async (req, res) => {
 
 
 async function fetchData(location) {
-   // const response = await fetch(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${encodeURIComponent(location)}/2025-05-10/2025-05-10?key=USEZFAA6CUZVX4CB6D2NLT5JH`);
-    const response = await fetch(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${encodeURIComponent(location)}?key=USEZFAA6CUZVX4CB6D2NLT5JH`);
+   // const response = await fetch(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${encodeURIComponent(location)}/2025-05-10/2025-05-10?key=API_KEY`);
+    const response = await fetch(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${encodeURIComponent(location)}?key=API_KEY`);
 
     if (!response.ok) {
         if (response.status === 404) {
